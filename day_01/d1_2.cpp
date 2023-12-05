@@ -59,7 +59,7 @@ int main(int argc, char **argv){
    }
 
    cout << "\nThe total sum is: " << sum << endl;
-
+   input.close();
 }
 string findDigits(string word){
     map<int, string> digitOrdering;
